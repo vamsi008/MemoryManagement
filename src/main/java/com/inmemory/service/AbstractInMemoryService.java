@@ -1,9 +1,15 @@
 package com.inmemory.service;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * Created by chavav on 29/08/17.
  */
 public abstract class AbstractInMemoryService<K,T> implements InMemoryService<K,T> {
+
+
+
 
 
     public T getInstance(K key) {
